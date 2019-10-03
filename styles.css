@@ -50,6 +50,7 @@ font-weight:400;
 }
 .image-wrap{
   position:relative;
+  background-image:url(images/about)
 }
 .image-wrap p{
   position: absolute;
@@ -67,4 +68,14 @@ font-weight:400;
 footer {
 text-align: center;
 background: #e75480;
+}
+.special{
+  text-decoration: none;
+  background: #ff00ff;
+  font: 23px sans-serif;
+  border:5px red solid;
+  background: yellow;
+  margin:10px;
+  padding:10px;
+  border-radius: 50%;
 }
