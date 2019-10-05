@@ -36,7 +36,7 @@ nav>ul>li {
 nav>ul>li>a {
   width: 50%;
   text-decoration: none;
-  background: #ff00ff;
+  background: #FF00FF;
   margin: 30px;
   font: 23px sans-serif;
   border: 5px red solid;
@@ -157,7 +157,7 @@ footer {
   background: #e75480;
 }
 
-.about {
+.header {
   text-align: center;
   font-size: 3rem;
   color: purple;
@@ -227,4 +227,82 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+.right-side1 p {
+  background-color: purple;
+  color: #7CFC00;
+  border: 2px solid green;
+}
+
+.right-side1 h3 {
+  color:#bc58b0;
+}
+.left-side1 p {
+  background-color: green;
+  color: #DDA0DD;
+  border: 2px solid purple;
+}
+
+.left-side1 h3 {
+  color:#bc58b0;
+}
+
+.right-side2 p {
+  background-color: blue;
+  color: #FFD700;
+  border: 2px solid orange;
+}
+
+.right-side2 h3 {
+  font-size: 25px;
+  color:#bc58b0;
+}
+.right-side22 p {
+  background-color: orange;
+  color: #0000A0;
+  border: 2px solid blue;
+}
+
+.right-side22 h3 {
+  font-size: 25px;
+  color:#bc58b0;
+}
+.right-side3 p {
+  background-color: #FF00FF;
+  color: #7CFC00;
+  border: 2px solid #00FF00;
+}
+
+.right-side3 h3 {
+  font-size: 25px;
+  color:#bc58b0;
+}
+.left-side3 p {
+  background-color: #FF00FF;
+  color: #7CFC00;
+  border: 2px solid #00FF00;
+}
+
+.left-side3 h3 {
+  font-size: 25px;
+  color:#bc58b0;
+}
+.blog{
+  background-color:#654321;
+  color: #30d5c8;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+}
+.right-side4 p {
+  background-color: #FFFF33;
+  color: #00FCFF;
+  border: 2px solid #00FF00;
+}
+.right-sided44 a{
+text-decoration: none;
+}
+.left-sided4 img{
+height: 40%;
 }
