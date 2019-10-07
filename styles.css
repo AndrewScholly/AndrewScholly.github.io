@@ -280,8 +280,23 @@ footer {
   font-size: 20px;
   color: #ff8c00;
 }
-
-@media only screen and (max-width: 400px) {
+.right-side-special p{
+  padding: 30px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: blue;
+  color: #FFD700;
+  border: 2px solid orange;
+}
+.right-side-special1 p{
+  padding: 30px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: orange;
+  color: #0000A0;
+  border: 2px solid blue;
+}
+@media only screen and (max-width:400px) {
   h1 {
     font-size: 35px;
   }
@@ -321,9 +336,15 @@ footer {
     font-size: 12px;
     width: 175px;
   }
+  .right-side-special p{
+    font-size: 12px;
+  }
+  .right-side-special1 p{
+    font-size: 12px;
+  }
 
   .right-side img {
-    height: 20rem;
+    height: 10rem;
   }
 
   .left-side p {
@@ -332,7 +353,7 @@ footer {
   }
 
   .left-side img {
-    height: 20rem;
+    height: 10rem;
   }
 
   .special {
@@ -384,9 +405,15 @@ footer {
     font-size: 15px;
     width: 225px;
   }
+  .right-side-special p{
+    font-size: 15px;
+  }
+  .right-side-special1 p{
+    font-size: 15px;
+  }
 
   .right-side img {
-    height: 30rem;
+    height: 20rem;
   }
 
   .left-side p {
@@ -395,7 +422,7 @@ footer {
   }
 
   .left-side img {
-    height: 30rem;
+    height: 20rem;
   }
   .special {
     font: 20px sans-serif;
@@ -444,6 +471,12 @@ footer {
   .right-side p {
     font-size: 20px;
     width: 320px;
+  }
+  .right-side-special p{
+    font-size: 20px;
+  }
+  .right-side-special1 p{
+    font-size: 20px;
   }
 
   .right-side img {
