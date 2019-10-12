@@ -38,7 +38,7 @@ nav>ul>li>a {
   text-decoration: none;
   background: #FF00FF;
   margin: 30px;
-  font: 23px sans-serif;
+  font: 20px sans-serif;
   border: 5px red solid;
   border-radius: 25%;
 }
@@ -74,6 +74,7 @@ nav>ul>li>a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .image-wrap-special:hover {
@@ -344,7 +345,8 @@ footer {
   }
 
   .right-side img {
-    height: 10rem;
+    height: 7rem;
+    width: inherit;
   }
 
   .left-side p {
@@ -353,7 +355,8 @@ footer {
   }
 
   .left-side img {
-    height: 10rem;
+    height: 7rem;
+    width: inherit;
   }
 
   .special {
@@ -413,7 +416,8 @@ footer {
   }
 
   .right-side img {
-    height: 20rem;
+    height: 10rem;
+    width: inherit;
   }
 
   .left-side p {
@@ -422,7 +426,8 @@ footer {
   }
 
   .left-side img {
-    height: 20rem;
+    height: 10rem;
+    width: inherit;
   }
   .special {
     font: 20px sans-serif;
@@ -480,7 +485,8 @@ footer {
   }
 
   .right-side img {
-    height: 30rem;
+    height: 15rem;
+    width: inherit;
   }
 
   .left-side p {
@@ -489,7 +495,8 @@ footer {
   }
 
   .left-side img {
-    height: 30rem;
+    height: 15rem;
+    width: inherit;
   }
   .special {
     font: 20px sans-serif;
