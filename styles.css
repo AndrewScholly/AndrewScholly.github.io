@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+overflow-x: hidden;
 }
 
 body {
@@ -502,7 +502,7 @@ footer {
     height: 15rem;
     width: inherit;
   }
-  
+
   .special {
     font: 20px sans-serif;
     border: 7px red solid;
