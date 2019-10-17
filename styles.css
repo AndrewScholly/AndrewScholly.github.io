@@ -60,9 +60,7 @@ nav > ul > li > a:hover {
 }
 
 .image-wrap {
-  display: flex;
   padding: 40px;
-  flex-direction: column;
   height: 80%;
   justify-content: space-between;
 }
@@ -338,10 +336,10 @@ footer {
     font-size: 12px;
     width: 175px;
   }
-  .right-side-special p{
+  .right-side-special p {
     font-size: 12px;
   }
-  .right-side-special1 p{
+  .right-side-special1 p {
     font-size: 12px;
   }
 
@@ -409,9 +407,11 @@ footer {
     font-size: 15px;
     width: 225px;
   }
+
   .right-side-special p{
     font-size: 15px;
   }
+
   .right-side-special1 p{
     font-size: 15px;
   }
@@ -430,6 +430,7 @@ footer {
     height: 10rem;
     width: inherit;
   }
+
   .special {
     font: 20px sans-serif;
     border: 5px red solid;
@@ -478,9 +479,11 @@ footer {
     font-size: 20px;
     width: 320px;
   }
+
   .right-side-special p{
     font-size: 20px;
   }
+
   .right-side-special1 p{
     font-size: 20px;
   }
@@ -499,6 +502,7 @@ footer {
     height: 15rem;
     width: inherit;
   }
+  
   .special {
     font: 20px sans-serif;
     border: 7px red solid;
