@@ -6,7 +6,7 @@ overflow-x: hidden;
 }
 
 body {
-  background-color: lightblue;
+  background: radial-gradient(lightblue, #800000 );
 }
 
 img {
@@ -19,11 +19,15 @@ h1 {
   font-size: 5rem;
   font-weight: 600;
   text-align: center;
-  background: #40e0d0;
+  background: linear-gradient(#ff5349, #40e0d0 );
   font-family: monospace;
   color: #ff007f;
 }
-
+.moving-nav{
+position:fixed;
+width: 100%;
+border-radius: 10%;
+}
 nav > ul {
   text-align: center;
   background: #40e0d0;
@@ -52,15 +56,17 @@ nav > ul > li > a:hover {
 }
 
 .introduction p {
+  padding-top: 10rem;
   margin: 50px 40px;
   font-style: italic;
-  color: purple;
+  color: #FF00FF;
   font-weight: 400;
   font-size: 20px;
+  text-shadow: blue 1px 1px 10px;
 }
 
 .image-wrap {
-  padding: 40px;
+  padding: 20px;
   height: 80%;
   justify-content: space-between;
 }
@@ -74,6 +80,7 @@ nav > ul > li > a:hover {
   background-repeat: no-repeat;
   text-decoration: none;
   font-size: 20px;
+  border-radius: 40%;
 }
 
 .image-wrap-special:hover {
@@ -110,7 +117,7 @@ nav > ul > li > a:hover {
 
 footer {
   text-align: center;
-  background: #e75480;
+  background: linear-gradient(#FF00FF, #e75480);
 }
 
 .header {
@@ -515,5 +522,8 @@ footer {
 body {
   width: 1000px;
   margin: auto;
+}
+.moving-nav{
+  width: inherit;
 }
 }
