@@ -54,7 +54,6 @@ nav > ul > li > a:hover {
   padding: 10px;
   border-radius: 50%;
 }
-
 .introduction p {
   padding-top: 10rem;
   margin: 50px 40px;
@@ -184,6 +183,7 @@ footer {
 }
 
 .outerdiv {
+  padding-top: 10rem;
   content: "";
   display: table;
   clear: both;
